@@ -8,6 +8,7 @@ Node.js中Canvas库所使用的依赖环境
 
 示例与参考：http://pm2.keymetrics.io/docs/usage/docker-pm2-nodejs/
 
+```
 docker run \
   -d \
   --rm \
@@ -25,7 +26,7 @@ docker run \
   --name "webapp" \
   hbthlw/canvas-ubuntu:2.0 \
   pm2-docker server.js
-  
+  ```
   
 # swap大小如何确定
 
